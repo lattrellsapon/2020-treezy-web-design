@@ -21,16 +21,6 @@ export class ContactMe extends Component {
 
   onSubmit = e => {
     e.preventDefault();
-    if (this.state.username === '') {
-      console.log('Please put it your name.');
-      return false;
-    } else if (this.state.email === '') {
-      console.log('Please put in your email address.');
-      return false;
-    } else if (this.state.message === '') {
-      console.log('Please enter in your message.');
-      return false;
-    }
 
     const templateId = 'template_lcAf46LY';
 
@@ -79,6 +69,7 @@ export class ContactMe extends Component {
               placeholder='Enter name'
               onChange={this.onChange}
               value={this.state.username}
+              required
             />
             <input
               type='email'
@@ -86,13 +77,16 @@ export class ContactMe extends Component {
               placeholder='Enter email'
               onChange={this.onChange}
               value={this.state.email}
+              required
             />
             <textarea
               name='message'
               placeholder='Your message'
               onChange={this.onChange}
               value={this.state.message}
+              required
             ></textarea>
+
             <input type='submit' value='SUBMIT' className='submit-button' />
           </form>
         </div>
