@@ -17,6 +17,7 @@ import WebsiteMaintenance from './images/website-maintenance.jpg';
 import ProjectOne from './images/ProjectOne.png';
 import ProjectTwo from './images/ProjectTwo.png';
 import ProjectThree from './images/ProjectThree.png';
+import ProjectFour from './images/ProjectFour.png';
 
 import './App.css';
 
@@ -40,6 +41,12 @@ export class App extends Component {
         projectName: 'Budget Manager App',
         projectImage: ProjectThree,
         projectLink: 'https://stupefied-curie-c68dad.netlify.com/'
+      },
+      {
+        id: 4,
+        projectName: 'Simple Weather Application',
+        projectImage: ProjectFour,
+        projectLink: 'https://compassionate-jang-2b26af.netlify.com/'
       }
     ],
     services: [
