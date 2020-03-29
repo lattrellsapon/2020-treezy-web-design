@@ -15,6 +15,11 @@ body {
   color: #fff;
 }
 
+.highlight {
+  color: #1eca25;
+  font-weight: bold;
+}
+
 img {
   width: 100%;
 }

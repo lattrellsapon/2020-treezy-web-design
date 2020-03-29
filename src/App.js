@@ -18,6 +18,7 @@ import ProjectOne from './images/ProjectOne.png';
 import ProjectTwo from './images/ProjectTwo.png';
 import ProjectThree from './images/ProjectThree.png';
 import ProjectFour from './images/ProjectFour.png';
+import ProjectFive from './images/ProjectFive.png';
 
 import './App.css';
 
@@ -44,9 +45,15 @@ export class App extends Component {
       },
       {
         id: 4,
-        projectName: 'Simple Weather Application',
+        projectName: 'Weather Application',
         projectImage: ProjectFour,
         projectLink: 'https://compassionate-jang-2b26af.netlify.com/'
+      },
+      {
+        id: 5,
+        projectName: 'Date Generator',
+        projectImage: ProjectFive,
+        projectLink: 'https://goofy-borg-191ede.netlify.com/'
       }
     ],
     services: [

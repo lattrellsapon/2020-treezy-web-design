@@ -7,9 +7,10 @@ export class About extends Component {
         <div className='about-me'>
           <div className='about-me-content'>
             <p>
-              Hi, my name is Lattrell Sapon. I am a front end developer. I can
-              help develop your ideas into reality. Get in touch and let's build
-              something beautiful together.
+              Hi, my name is <span className='highlight'>Lattrell Sapon</span>.
+              I am a <span className='highlight'>front end developer</span>. I
+              can help develop your ideas into reality. Get in touch and let's
+              build something beautiful together.
             </p>
           </div>
         </div>
